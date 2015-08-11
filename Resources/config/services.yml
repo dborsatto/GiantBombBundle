@@ -1,0 +1,7 @@
+services:
+    giantbomb.config:
+        class: DBorsatto\GiantBomb\Config
+        arguments: [ "%giantbomb.api_key%" ]
+    giantbomb.manager:
+        class: DBorsatto\GiantBomb\Manager
+        arguments: [ "@giantbomb.config" ]

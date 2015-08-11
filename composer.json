@@ -1,0 +1,19 @@
+{
+    "name": "dborsatto/giantbomb-bundle",
+    "description": "A Symfony bundle built on top of the dborsatto/php-giantbomb package.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davide Borsatto",
+            "email": "davide.borsatto@gmail.com"
+        }
+    ],
+    "require": {
+        "dborsatto/php-giantbomb": "^0.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DBorsatto\\GiantBombBundle": ""
+        }
+    },
+}
