@@ -19,12 +19,12 @@ giantbomb:
 
 ## Use
 
-The bundle provides a shortcut to the Manager object:
+The bundle provides a shortcut to the Client object:
 
 ```php
 // Inside a controller
-$manager = $this->get('giantbomb.manager');
-$results = $manager->search('Uncharted', 'franchise');
+$client = $this->get('giantbomb.client');
+$results = $client->search('Uncharted', 'game,franchise');
 ```
 
 For all possible uses refer to the [dborsatto/php-giantbomb](https://github.com/dborsatto/php-giantbomb) documentation.
