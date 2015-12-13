@@ -11,7 +11,14 @@ composer require dborsatto/giantbomb-bundle
 
 ## Configuration
 
-You only need to add an api_key to you config.yml.
+First, register the bundle in your AppKernel
+```
+// ...
+new DBorsatto\GiantBombBundle\GiantBombBundle(),
+// ...
+```
+
+Then you only need to add an api_key to you config.yml.
 ```
 giantbomb:
     api_key: YOUR_KEY_HERE
